@@ -691,7 +691,7 @@ header .right-side .basket::after {
 }
 @media (max-width: 992px) {
     .photo img {
-        height: 60vh;
+        height: auto;
     }
 }
 @media (max-width: 767px) {
@@ -792,12 +792,13 @@ footer p.end {
 }
 @media (max-width: 992px) {
   footer .content {
-    height: 100vh;
+    height: fit-content;
   }
   footer .content h3 {
     font-size: 26px;
     width: fit-content;
-    padding: 0 20px;
+    padding: 0 20px; 
+    margin: 10px auto;
   }
   footer .content p {
     font-size: 13px;
